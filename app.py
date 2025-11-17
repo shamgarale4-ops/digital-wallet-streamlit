@@ -241,7 +241,7 @@ def render_main_app():
 
 def render_sidebar_navigation(user, user_data):
     """Renders the sidebar with all 11 functionalities listed explicitly."""
-    st.image("https://i.imgur.com/7b2zG9E.png", width=80)
+   # st.image("https://i.imgur.com/7b2zG9E.png", width=80)
     st.header(f"Hi, {user_data['display_name'].split()[0]}")
     st.metric(label="Available Balance", value=f"₹{user_data['balance']:,.2f}")
     st.markdown("---")
