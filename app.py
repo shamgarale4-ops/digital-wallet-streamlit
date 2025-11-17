@@ -25,7 +25,7 @@ import io
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Gemini UPI Wallet",
+    page_title="Gemini and gems UPI Wallet",
     page_icon="💎",
     layout="wide",
     initial_sidebar_state="expanded"
