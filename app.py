@@ -178,8 +178,8 @@ def render_login_page():
     inject_custom_css_black_theme()
     st.markdown("<div class='login-container'>", unsafe_allow_html=True)
     col_img, col_form = st.columns([1, 2])
-    with col_img:
-        st.image("https://i.imgur.com/7b2zG9E.png", width=200)
+  
+       
     with col_form:
         st.title("Secure Wallet Login")
         st.markdown("Enter your credentials to access your Gemini UPI Wallet.")
